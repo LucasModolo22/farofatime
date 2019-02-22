@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+.gotop {
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background: #333;
+  color:#FFF;
+  cursor: pointer;
+  z-index: 51;
+  width: 0;
+  border-radius: 50% 0 0 50%;
+  transition: all .3s ease;
+}
+
+.intro {
+  text-align: center;
+  background: #D46856;
+  padding: 20px 0;
+}
+.intro h1 {
+  color: #FFF;
+  margin: 0 0 10px 0;
+}
+.intro a {
+  color: #DDD;
+  text-decoration: none;
+  transition: all .3s ease;
+}
+.intro a:hover {
+  color: #FFF;
+}
+.content {
+  padding: 0 20px;
+}
